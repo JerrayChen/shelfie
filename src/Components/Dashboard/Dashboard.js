@@ -6,10 +6,12 @@ class Dashboard extends Component{
         super();
     }
     render(){
+        let list = this.props.inv.map((e,i)=>{
+            return (<Product key={i} product={e}/>)
+        });
         return (
-            <div>
-                Dashboard
-                <Product />
+            <div className='Dashboard'>
+                {list}
             </div>
         )
     }

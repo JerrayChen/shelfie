@@ -1,0 +1,38 @@
+.Form{
+    background-color: #3ad886;
+    height: 520px;
+    width: 450px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form input{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.Form-title{
+    text-align: left;
+    font-size: 20px;
+    margin: 7px 0;
+}
+
+.Form-btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Form-btns button{
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: #ed6b5a;
+    border-radius: 7px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
